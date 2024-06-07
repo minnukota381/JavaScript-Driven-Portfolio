@@ -1,44 +1,48 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    background-color: #f4f4f4;
 }
 
-#app {
-    background: #fff;
+#portfolioContainer {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 300px;
-    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-h1 {
+.header, .section, .footer {
     margin-bottom: 20px;
 }
 
-input[type="email"], input[type="password"] {
-    width: calc(100% - 22px);
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 10px;
+.header h1, .section h2, .footer p {
+    margin: 0;
+    padding: 10px 0;
 }
 
-button {
-    width: 100%;
-    padding: 10px;
-    background: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.header h1 {
+    font-size: 2em;
+    text-align: center;
 }
 
-button:hover {
-    background: #0056b3;
+.section {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.section p {
+    margin: 10px 0;
+}
+
+.footer {
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
 }

@@ -1,43 +1,40 @@
-// Get the app div
-const app = document.getElementById('app');
+// Portfolio Container
+const portfolioContainer = document.getElementById('portfolioContainer');
 
-// Create and append the title
-const title = document.createElement('h1');
-title.textContent = 'Login';
-app.appendChild(title);
+// Create Header
+const header = document.createElement('div');
+header.classList.add('header');
+const headerTitle = document.createElement('h1');
+headerTitle.textContent = 'My Portfolio';
+header.appendChild(headerTitle);
+portfolioContainer.appendChild(header);
 
-// Create and append the email input field
-const emailInput = document.createElement('input');
-emailInput.type = 'email';
-emailInput.id = 'email';
-emailInput.placeholder = 'Enter your email';
-app.appendChild(emailInput);
+// Create Sections
+const sections = [
+    { title: 'About Me', content: 'I am a web developer with a passion for creating beautiful and functional websites.' },
+    { title: 'Projects', content: 'Here are some of my recent projects: Project A, Project B, Project C.' },
+    { title: 'Contact', content: 'Feel free to reach out to me at myemail@example.com.' }
+];
 
-// Create and append the password input field
-const passwordInput = document.createElement('input');
-passwordInput.type = 'password';
-passwordInput.id = 'password';
-passwordInput.placeholder = 'Enter your password';
-app.appendChild(passwordInput);
-
-// Create and append the login button
-const loginButton = document.createElement('button');
-loginButton.id = 'login-button';
-loginButton.textContent = 'Login';
-app.appendChild(loginButton);
-
-// Add event listener to the login button
-loginButton.addEventListener('click', function() {
-    const email = emailInput.value.trim();
-    const password = passwordInput.value.trim();
-
-    // Basic validation
-    if (email === '') {
-        alert('Please enter your email');
-    } else if (password === '') {
-        alert('Please enter your password');
-    } else {
-        alert('Logged in successfully!');
-        // Here you can add more complex login logic
-    }
+sections.forEach(sectionData => {
+    const section = document.createElement('div');
+    section.classList.add('section');
+    
+    const sectionTitle = document.createElement('h2');
+    sectionTitle.textContent = sectionData.title;
+    section.appendChild(sectionTitle);
+    
+    const sectionContent = document.createElement('p');
+    sectionContent.textContent = sectionData.content;
+    section.appendChild(sectionContent);
+    
+    portfolioContainer.appendChild(section);
 });
+
+// Create Footer
+const footer = document.createElement('div');
+footer.classList.add('footer');
+const footerText = document.createElement('p');
+footerText.textContent = '© 2024 My Portfolio. All rights reserved.';
+footer.appendChild(footerText);
+portfolioContainer.appendChild(footer);
