@@ -1,6 +1,3 @@
-Sure, here's a sample `README.md` for your repository:
-
-```markdown
 # DynamicPortfolioJS
 
 A dynamic portfolio website built entirely using JavaScript to create all HTML elements. This project demonstrates how to build a modern, interactive portfolio without writing any HTML directly.
