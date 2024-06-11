@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="home-content text-center">
             <div class="text">
                 <div class="home-circle">
-                    <img src="./Assets/minnu.JPG" alt="Minnu" class="img-fluid">
+                    <img src="./Assets/Minnu.JPG" alt="Minnu" class="img-fluid">
                 </div>
                 <div class="text-one">Hello there,</div>
                 <div class="text-two">I'm Minnu</div>
