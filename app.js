@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="home-content text-center">
             <div class="text">
                 <div class="home-circle">
-                    <img src="./Assets/Minnu.JPG" alt="Minnu" class="img-fluid">
+                    <img src="./Assets/images/Minnu.JPG" alt="Minnu" class="img-fluid">
                 </div>
                 <div class="text-one">Hello there,</div>
                 <div class="text-two">I'm Minnu</div>
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="title text-center"><span class="about-title">About Me</span></div>
             <div class="about-details row">
                 <div class="col-md-4 d-flex align-items-center">
-                    <img src="images/m.jpg" alt="" class="img-fluid">
+                    <img src="./Assets/images/m.jpg" alt="" class="img-fluid">
                 </div>
                 <div class="col-md-8">
                     <div class="right">
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="row">
                 <div class="col-md-6">
                     <div class="project-card">
-                        <img src="images/project1.jpg" alt="Project 1" class="img-fluid">
+                        <img src="./Assets/images/project1.jpg" alt="Project 1" class="img-fluid">
                         <div class="project-info">
                             <h3>Portfolio</h3>
                             <p>Designed and developed a personal portfolio website to showcase my projects, skills, and resume.</p>
