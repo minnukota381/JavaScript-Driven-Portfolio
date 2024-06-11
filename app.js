@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#skills"><i class="fas fa-toolbox"></i> Skills</a></li>
                 <li class="nav-item"><a class="nav-link" href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="Resume.pdf" target="_blank"><i class="fas fa-file"></i> Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Assets/Resume.pdf" target="_blank"><i class="fas fa-file"></i> Resume</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
             </ul>
         </div>
@@ -71,10 +71,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             In backend development, I've worked with Flask, integrating databases like SQLite, MySQL, MongoDB, and PostgreSQL. Embracing Node.js and PHP, I've developed scalable web applications.
                         </p>
                         <p class="resume-options">
-                            <a href="Resume.pdf" class="btn btn-outline-light" target="_blank">View my resume</a>
+                            <a href="./Assets/Resume.pdf" class="btn btn-outline-light" target="_blank">View my resume</a>
                         </p>
                         <p>
-                            <a href="Resume.pdf" class="btn btn-outline-light" target="_blank">Download my resume</a>
+                            <a href="./Assets/Resume.pdf" class="btn btn-outline-light" target="_blank">Download my resume</a>
                         </p>
                     </div>
                 </div>
