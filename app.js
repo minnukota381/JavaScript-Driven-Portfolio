@@ -91,22 +91,22 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="content">
             <div class="title text-center"><span>Skills</span></div>
             <div class="row">
-                <div class="col-md-3 col-sm-6"><img src="icons/c.svg" alt="C Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="icons/cpp.svg" alt="C++ Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="icons/java.svg" alt="Java Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="icons/python.svg" alt="Python Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/c.svg" alt="C Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/cpp.svg" alt="C++ Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/java.svg" alt="Java Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/python.svg" alt="Python Icon" class="svg-icon"></div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6"><img src="icons/html.svg" alt="HTML Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="icons/css.svg" alt="CSS Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="icons/javascript.svg" alt="JavaScript Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="icons/jquery.svg" alt="JQuery Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/html.svg" alt="HTML Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/css.svg" alt="CSS Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/javascript.svg" alt="JavaScript Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/jquery.svg" alt="JQuery Icon" class="svg-icon"></div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6"><img src="icons/nodejs.svg" alt="NodeJS Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="icons/express.svg" alt="Express Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="icons/mongodb.svg" alt="MongoDB Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="icons/mysql.svg" alt="MySQL Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/nodejs.svg" alt="NodeJS Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/express.svg" alt="Express Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/mongodb.svg" alt="MongoDB Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/mysql.svg" alt="MySQL Icon" class="svg-icon"></div>
             </div>
         </div>
     `;
