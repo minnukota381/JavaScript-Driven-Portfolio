@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Initialize Typed.js
     new Typed('#typed-text .pre-style', {
-        strings: ['Web Developer', 'Programmer', 'Tech Enthusiast'],
+        strings: ['Full Stack Developer', 'Software Developer'],
         typeSpeed: 100,
         backSpeed: 50,
         loop: true
