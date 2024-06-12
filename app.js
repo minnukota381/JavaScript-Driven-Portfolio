@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
     `;
     root.appendChild(aboutSection);
 
-    // Create Skills Section
+    // Skills Section
     const skillsSection = document.createElement('section');
     skillsSection.className = 'skills';
     skillsSection.id = 'skills';
