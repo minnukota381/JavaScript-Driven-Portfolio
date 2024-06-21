@@ -317,6 +317,7 @@ section p{
 
 .skills {
   padding: 40px 0;
+  display: flex;
   flex-direction: column;
   align-items: center; 
   justify-content: center; 
@@ -345,9 +346,10 @@ section p{
   align-items: center;
 }
 
-.skills .col-md-3 {
-  flex: 20% 20% 0;
-  max-width: 25%;
+.skills .col-md-3, .skills .col-sm-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -356,9 +358,10 @@ section p{
   color: #ffffff;
   background-color: transparent;
   border: none;
+  width: 350px;
+  height: auto;
   margin-bottom: 20px;
   border-radius: 25px;
-  max-width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -373,25 +376,27 @@ section p{
   box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.8); 
 }
 
-.projects img{
-  max-width: 50%;
+.projects img {
+  max-width: 70%;
   height: auto;
   border-radius: 12px;
   margin: 10px 0;
-}
-
-.projects-details .card .card-body {
-  padding: 10px;
-  border-radius: 12px;
-  text-align: justify;
 }
 
 .projects .title {
   text-align: center;
 }
 
-.projects .title span {
-  color: #fff;
+.projects .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects .col-md-6 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .contact {
