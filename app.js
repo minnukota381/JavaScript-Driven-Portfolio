@@ -112,48 +112,52 @@ document.addEventListener('DOMContentLoaded', function () {
     `;
     root.appendChild(skillsSection);
 
-// Create Projects Section
-const projectsSection = document.createElement('section');
-projectsSection.className = 'projects';
-projectsSection.id = 'projects';
-projectsSection.innerHTML = `
-    <div class="content">
-        <div class="title text-center"><span>Projects</span></div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="project-card">
-                    <h3>CUTM Result Portal</h3>
-                    <img src="./Assets/images/portal.jpg" alt="Project 1" class="img-fluid">
-                    <div class="project-info">
-                        <p>Designed and developed a personal portfolio website to showcase my projects, skills, and resume.</p>
-                        <a href="#" class="btn btn-primary" target="_blank">View Project</a>
+    // Create Projects Section
+    const projectsSection = document.createElement('section');
+    projectsSection.className = 'projects';
+    projectsSection.id = 'projects';
+    projectsSection.innerHTML = `
+        <div class="content">
+            <div class="title text-center"><span>Projects</span></div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <h3>CUTM Result Portal</h3>
+                        <img src="./Assets/images/portal.jpg" alt="Project 1" class="img-fluid">
+                        <div class="project-info">
+                            <p>Designed and developed a personal portfolio website to showcase my projects, skills, and resume.</p>
+                            <p>This project involved creating a responsive and visually appealing portfolio using HTML, CSS, and JavaScript. It showcases various projects, skills, and provides a resume download option.</p>
+                            <a href="#" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project-card">
-                    <h4>Smart Pond Monitoring</h4>
-                    <img src="./Assets/images/smart.jpg" alt="Project 2" class="img-fluid">
-                    <div class="project-info">
-                        <p>A web-based Simon Game built using JavaScript, HTML, and CSS for interactive user experience.</p>
-                        <a href="#" class="btn btn-primary" target="_blank">View Project</a>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <h4>Smart Pond Monitoring</h4>
+                        <img src="./Assets/images/smart.jpg" alt="Project 2" class="img-fluid">
+                        <div class="project-info">
+                            <p>Developed a smart pond monitoring system using IoT sensors and a web interface for real-time data visualization and control.</p>
+                            <p>This project utilized Raspberry Pi, sensors, and web technologies to monitor water quality parameters in ponds. It provided alerts and insights through a user-friendly web interface.</p>
+                            <a href="#" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project-card">
-                    <h4>Calculator</h4>
-                    <img src="./Assets/images/calc.jpg" alt="Project 3" class="img-fluid">
-                    <div class="project-info">
-                        <p>A web-based Simon Game built using JavaScript, HTML, and CSS for interactive user experience.</p>
-                        <a href="#" class="btn btn-primary" target="_blank">View Project</a>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <h4>Calculator</h4>
+                        <img src="./Assets/images/calc.jpg" alt="Project 3" class="img-fluid">
+                        <div class="project-info">
+                            <p>Created a simple calculator web application using HTML, CSS, and JavaScript for basic arithmetic operations.</p>
+                            <p>This project focused on building a functional calculator with a user-friendly interface. It supports addition, subtraction, multiplication, and division operations.</p>
+                            <a href="#" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-`;
-root.appendChild(projectsSection);
+    `;
+    root.appendChild(projectsSection);
+
 
 
     // Create Contact Section
