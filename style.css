@@ -363,10 +363,10 @@ section p{
   align-items: center;
   justify-content: center;
   padding: 25px;
-  box-shadow: 0px 4px 8px rgba(195, 191, 191, 0.5);
+  box-shadow: 0px 4px 8px rgb(255, 255, 255);
 }
 
-.projects-card:hover {
+.project-card:hover {
   transform: translateY(-5px);
   background-color: transparent;
   box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.8); 
