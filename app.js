@@ -111,6 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
     `;
     root.appendChild(skillsSection);
+
 // Create Projects Section
 const projectsSection = document.createElement('section');
 projectsSection.className = 'projects';
@@ -119,7 +120,7 @@ projectsSection.innerHTML = `
     <div class="content">
         <div class="title text-center"><span>Projects</span></div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="project-card">
                     <h3>CUTM Result Portal</h3>
                     <img src="./Assets/images/portal.jpg" alt="Project 1" class="img-fluid">
@@ -129,10 +130,20 @@ projectsSection.innerHTML = `
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="project-card">
                     <h4>Smart Pond Monitoring</h4>
                     <img src="./Assets/images/smart.jpg" alt="Project 2" class="img-fluid">
+                    <div class="project-info">
+                        <p>A web-based Simon Game built using JavaScript, HTML, and CSS for interactive user experience.</p>
+                        <a href="#" class="btn btn-primary" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project-card">
+                    <h4>Calculator</h4>
+                    <img src="./Assets/images/calc.jpg" alt="Project 3" class="img-fluid">
                     <div class="project-info">
                         <p>A web-based Simon Game built using JavaScript, HTML, and CSS for interactive user experience.</p>
                         <a href="#" class="btn btn-primary" target="_blank">View Project</a>
@@ -143,6 +154,7 @@ projectsSection.innerHTML = `
     </div>
 `;
 root.appendChild(projectsSection);
+
 
     // Create Contact Section
     const contactSection = document.createElement('section');
