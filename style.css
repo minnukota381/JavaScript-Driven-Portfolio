@@ -401,6 +401,7 @@ section p{
 
 .project-info {
   text-align: center;
+  padding: 0 20px !important;
 }
 
 .project-info .btn {
