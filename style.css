@@ -12,7 +12,7 @@
 }
 
 body {
-  background: url('https://www.hdwallpapers.in/download/leaves_plant_branches_dark_background_hd_dark-HD.jpg') fixed;
+  background: url('./Assets/images/bgdg.jpg') fixed;
   background-size: cover;
   font-family: 'Poppins', sans-serif;
 }

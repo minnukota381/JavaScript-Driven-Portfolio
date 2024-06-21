@@ -132,9 +132,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 </div>
                 <div class="col-md-6">
                     <div class="project-card">
+                        <h3>Smart Pond Monitoring</h3>
                         <img src="./Assets/images/smart.jpg" alt="Project 2" class="img-fluid">
                         <div class="project-info">
-                            <h3>Smart Pond Monitoring</h3>
                             <p>A web-based Simon Game built using JavaScript, HTML, and CSS for interactive user experience.</p>
                             <a href="#" class="btn btn-primary" target="_blank">View Project</a>
                         </div>
