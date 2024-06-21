@@ -122,9 +122,9 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="row">
                 <div class="col-md-6">
                     <div class="project-card">
-                        <img src="./Assets/images/project1.jpg" alt="Project 1" class="img-fluid">
+                        <img src="./Assets/images/portal.jpg" alt="Project 1" class="img-fluid">
                         <div class="project-info">
-                            <h3>Portfolio</h3>
+                            <h3>CUTM Result Portal</h3>
                             <p>Designed and developed a personal portfolio website to showcase my projects, skills, and resume.</p>
                             <a href="#" class="btn btn-primary" target="_blank">View Project</a>
                         </div>
@@ -132,9 +132,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 </div>
                 <div class="col-md-6">
                     <div class="project-card">
-                        <img src="images/project2.jpg" alt="Project 2" class="img-fluid">
+                        <img src="./Assets/images/smart.jpg" alt="Project 2" class="img-fluid">
                         <div class="project-info">
-                            <h3>Simon Game</h3>
+                            <h3>Smart Pond Monitoring</h3>
                             <p>A web-based Simon Game built using JavaScript, HTML, and CSS for interactive user experience.</p>
                             <a href="#" class="btn btn-primary" target="_blank">View Project</a>
                         </div>
