@@ -111,39 +111,38 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
     `;
     root.appendChild(skillsSection);
-
-    // Create Projects Section
-    const projectsSection = document.createElement('section');
-    projectsSection.className = 'projects';
-    projectsSection.id = 'projects';
-    projectsSection.innerHTML = `
-        <div class="content">
-            <div class="title text-center"><span>Projects</span></div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="project-card">
-                        <img src="./Assets/images/portal.jpg" alt="Project 1" class="img-fluid">
-                        <div class="project-info">
-                            <h3>CUTM Result Portal</h3>
-                            <p>Designed and developed a personal portfolio website to showcase my projects, skills, and resume.</p>
-                            <a href="#" class="btn btn-primary" target="_blank">View Project</a>
-                        </div>
+// Create Projects Section
+const projectsSection = document.createElement('section');
+projectsSection.className = 'projects';
+projectsSection.id = 'projects';
+projectsSection.innerHTML = `
+    <div class="content">
+        <div class="title text-center"><span>Projects</span></div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="project-card">
+                    <h3>CUTM Result Portal</h3>
+                    <img src="./Assets/images/portal.jpg" alt="Project 1" class="img-fluid">
+                    <div class="project-info">
+                        <p>Designed and developed a personal portfolio website to showcase my projects, skills, and resume.</p>
+                        <a href="#" class="btn btn-primary" target="_blank">View Project</a>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="project-card">
-                        <h3>Smart Pond Monitoring</h3>
-                        <img src="./Assets/images/smart.jpg" alt="Project 2" class="img-fluid">
-                        <div class="project-info">
-                            <p>A web-based Simon Game built using JavaScript, HTML, and CSS for interactive user experience.</p>
-                            <a href="#" class="btn btn-primary" target="_blank">View Project</a>
-                        </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project-card">
+                    <h4>Smart Pond Monitoring</h4>
+                    <img src="./Assets/images/smart.jpg" alt="Project 2" class="img-fluid">
+                    <div class="project-info">
+                        <p>A web-based Simon Game built using JavaScript, HTML, and CSS for interactive user experience.</p>
+                        <a href="#" class="btn btn-primary" target="_blank">View Project</a>
                     </div>
                 </div>
             </div>
         </div>
-    `;
-    root.appendChild(projectsSection);
+    </div>
+`;
+root.appendChild(projectsSection);
 
     // Create Contact Section
     const contactSection = document.createElement('section');

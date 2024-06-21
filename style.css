@@ -373,7 +373,7 @@ section p{
 .project-card:hover {
   transform: translateY(-5px);
   background-color: transparent;
-  box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.8); 
+  box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.8);
 }
 
 .projects img {
@@ -397,6 +397,16 @@ section p{
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+}
+
+.project-info {
+  text-align: center;
+}
+
+.project-info .btn {
+  margin-top: 10px;
+  display: inline-block;
+  text-align: center;
 }
 
 .contact {
