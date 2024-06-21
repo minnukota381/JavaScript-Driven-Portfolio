@@ -125,9 +125,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         <h3>CUTM Result Portal</h3>
                         <img src="./Assets/images/portal.jpg" alt="Project 1" class="img-fluid">
                         <div class="project-info">
-                            <p>Designed and developed a personal portfolio website to showcase my projects, skills, and resume.</p>
-                            <p>This project involved creating a responsive and visually appealing portfolio using HTML, CSS, and JavaScript. It showcases various projects, skills, and provides a resume download option.</p>
-                            <a href="#" class="btn btn-primary" target="_blank">View Project</a>
+                            <p>The CUTM Result Portal is a web application designed to help students and administrators view and manage academic results efficiently. This repository contains the codebase for the portal, including frontend templates, backend logic, and database configurations.</p>
+                            <a href="https://github.com/minnukota381/CUTM-Result-Portal.git" class="btn btn-primary" target="_blank">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -149,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         <div class="project-info">
                             <p>Created a simple calculator web application using HTML, CSS, and JavaScript for basic arithmetic operations.</p>
                             <p>This project focused on building a functional calculator with a user-friendly interface. It supports addition, subtraction, multiplication, and division operations.</p>
-                            <a href="#" class="btn btn-primary" target="_blank">View Project</a>
+                            <a href="https://github.com/minnukota381/simple-calculator-react.git" class="btn btn-primary" target="_blank">View Project</a>
                         </div>
                     </div>
                 </div>
