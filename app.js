@@ -91,22 +91,28 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="content">
             <div class="title text-center"><span>Skills</span></div>
             <div class="row">
-                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/c.svg" alt="C Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/cpp.svg" alt="C++ Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/java.svg" alt="Java Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/python.svg" alt="Python Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/c.svg" alt="C" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/cpp.svg" alt="C++" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/java.svg" alt="Java" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/python.svg" alt="Python" class="svg-icon"></div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/html.svg" alt="HTML Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/css.svg" alt="CSS Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/html.svg" alt="HTML" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/css.svg" alt="CSS" class="svg-icon"></div>
                 <div class="col-md-3 col-sm-6"><img src="./Assets/icons/javascript.svg" alt="JavaScript Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/jquery.svg" alt="JQuery Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/bootstrap.svg" alt="bootstrap" class="svg-icon"></div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/nodejs.svg" alt="NodeJS Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/express.svg" alt="Express Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/mongodb.svg" alt="MongoDB Icon" class="svg-icon"></div>
-                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/mysql.svg" alt="MySQL Icon" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/node.svg" alt="NodeJS" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/react.svg" alt="react" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/mongodb.svg" alt="MongoDB" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/mysql.svg" alt="MySQL Ico" class="svg-icon"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/flask.svg" alt="git" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/sqlite.svg" alt="sqlite" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/postgresql.svg" alt="postgres" class="svg-icon"></div>
+                <div class="col-md-3 col-sm-6"><img src="./Assets/icons/php.svg" alt="php" class="svg-icon"></div>
             </div>
         </div>
     `;
@@ -135,8 +141,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         <h4>Smart Pond Monitoring</h4>
                         <img src="./Assets/images/smart.jpg" alt="Project 2" class="img-fluid">
                         <div class="project-info">
-                            <p>Developed a smart pond monitoring system using IoT sensors and a web interface for real-time data visualization and control.</p>
-                            <p>This project utilized Raspberry Pi, sensors, and web technologies to monitor water quality parameters in ponds. It provided alerts and insights through a user-friendly web interface.</p>
+                            <p>This>Developed a smart pond monitoring system using IoT sensors and a web interface for real-time data visualization and control. This project utilized Arduino, sensors, and web technologies to monitor water quality parameters in ponds. It provided alerts and insights through a user-friendly web interface.</p>
                             <a href="#" class="btn btn-primary" target="_blank">View Project</a>
                         </div>
                     </div>
