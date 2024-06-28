@@ -176,11 +176,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     <form action="https://formspree.io/f/mgejqkra" method="POST" class="contact-form">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" name="name" id="name" class="form-control" required>
+                            <input type="text" name="name" id="name" placeholder="Enter your Name" class="form-control" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" name="_replyto" id="email" class="form-control" required>
+                            <input type="email" name="_replyto" id="email" placeholder="Enter your Email" class="form-control" required>
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
