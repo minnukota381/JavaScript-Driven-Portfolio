@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const root = document.getElementById('root');
 
-    // Create Navbar
     const navbar = document.createElement('nav');
     navbar.className = 'navbar navbar-expand-lg navbar-light';
     navbar.id = 'navbar';
@@ -23,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
     `;
     root.appendChild(navbar);
 
-    // Create Home Section
     const homeSection = document.createElement('section');
     homeSection.className = 'home';
     homeSection.id = 'home';
@@ -47,7 +45,6 @@ document.addEventListener('DOMContentLoaded', function () {
     `;
     root.appendChild(homeSection);
 
-    // Create About Section
     const aboutSection = document.createElement('section');
     aboutSection.className = 'about';
     aboutSection.id = 'about';
@@ -83,7 +80,6 @@ document.addEventListener('DOMContentLoaded', function () {
     `;
     root.appendChild(aboutSection);
 
-    // Skills Section
     const skillsSection = document.createElement('section');
     skillsSection.className = 'skills';
     skillsSection.id = 'skills';
@@ -118,7 +114,6 @@ document.addEventListener('DOMContentLoaded', function () {
     `;
     root.appendChild(skillsSection);
 
-    // Create Projects Section
     const projectsSection = document.createElement('section');
     projectsSection.className = 'projects';
     projectsSection.id = 'projects';
@@ -164,7 +159,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-    // Create Contact Section
     const contactSection = document.createElement('section');
     contactSection.className = 'contact';
     contactSection.id = 'contact';
@@ -194,7 +188,6 @@ document.addEventListener('DOMContentLoaded', function () {
     `;
     root.appendChild(contactSection);
 
-    // Create Footer
     const footer = document.createElement('footer');
     footer.className = 'footer text-center';
     footer.innerHTML = `
@@ -202,7 +195,6 @@ document.addEventListener('DOMContentLoaded', function () {
     `;
     root.appendChild(footer);
 
-    // Initialize Typed.js
     new Typed('#typed-text .pre-style', {
         strings: ['Programmer', 'Full Stack Developer', 'Software Developer'],
         typeSpeed: 100,
