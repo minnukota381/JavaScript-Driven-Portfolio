@@ -539,34 +539,7 @@ footer .text span a:hover {
   }
 }
 
-@media (max-width: 1000px) {
-  .about .about-details{
-    justify-content: center;
-    flex-direction: column;
-  }
-  .about .about-details .left{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  .about-details .right{
-    width: 90%;
-    margin: 40px 0;
-  }
-  .projects .boxes .box{
-    margin: 20px 0;
-    width: calc(100% / 2 - 20px);
-  }
-}
-
-@media (max-width: 900px) {
-  .about .left img{
-    height: 350px;
-    width: 350px;
-  }
-}
-
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   nav .navbar{
     width: 90%;
   }
@@ -599,20 +572,6 @@ footer .text span a:hover {
 }
 }
 
-@media (max-width: 500px){
-  .home .text-two{
-    font-size: 55px;
-  }
-  .home .text-three{
-    font-size: 33px;
-  }
-  .about-details .col-md-4 {
-    justify-content: center;
-  }
-      .svg-icon {
-      margin-bottom: 5px;
-    }
-}
 @media (max-width: 576px) {
   .skills .col-md-3 {
     flex: 0 0 50% !important;
@@ -624,6 +583,11 @@ footer .text span a:hover {
     position: relative;
     margin-bottom: 5px;
   }
+  .projects .col-md-6 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
   .home .social-links {
     display: block;
     text-align: center;
@@ -634,7 +598,8 @@ footer .text span a:hover {
     display: inline-block;
     margin: 0 5px;
   }
-.home .social-links a:hover {
-    transform: scale(1.2);
-}
+  .home .social-links a:hover {
+      transform: scale(1.2);
+  }
+
 }
