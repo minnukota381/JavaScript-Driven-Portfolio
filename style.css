@@ -614,15 +614,15 @@ footer .text span a:hover {
     }
 }
 @media (max-width: 576px) {
+  .skills .col-md-3 {
+    flex: 0 0 50% !important;
+    max-width: 50%;
+  }
   .svg-icon {
     width: 50px;
     height: 50px;
     position: relative;
     margin-bottom: 5px;
-  }
-  .skills .col-md-3 {
-    flex: 0 0 0%; 
-    max-width: 50%;
   }
   .home .social-links {
     display: block;
