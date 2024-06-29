@@ -290,7 +290,7 @@ section p{
 }
 
 .about{
-  padding: 50px 0;
+  padding: 80px 0;
 }
 
 .about-title{
@@ -351,6 +351,10 @@ section p{
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.projects{
+  padding : 80px 0;
 }
 
 .projects .project-card {
@@ -513,7 +517,6 @@ footer {
   align-items: center;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
-  
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
