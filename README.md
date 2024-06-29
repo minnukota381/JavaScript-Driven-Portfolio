@@ -13,6 +13,7 @@ A dynamic portfolio website built entirely using JavaScript to create all HTML e
 
 - JavaScript
 - CSS
+- HTML
 
 ## Getting Started
 
@@ -23,11 +24,13 @@ To run this project, you'll need a modern web browser.
 ### Installation
 
 1. Clone the repository:
+
     ```sh
     git clone https://github.com/minnukota381/JavaScript-Driven-Portfolio.git
     ```
 
 2. Navigate to the project directory:
+
     ```sh
     cd JavaScript-Driven-Portfolio
     ```
@@ -36,7 +39,7 @@ To run this project, you'll need a modern web browser.
 
 ### Directory Structure
 
-```
+```sh
 JavaScript-Driven-Portfolio/
 │
 ├── Assets/             # Directory for images, icons, and other assets
